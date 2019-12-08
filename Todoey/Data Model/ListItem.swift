@@ -8,7 +8,7 @@
 
 import Foundation
 
-class ListItem : Codable{
+class ListItem : Encodable, Decodable {
     
     private var checked : Bool
     
